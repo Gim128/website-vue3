@@ -1,7 +1,7 @@
 <template>
   <nav>
     <!-- desktop menu -->
-    <div class="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black">
+    <div class="bg-gradient-to-r from-sky-400 to-blue-500">
         <div class="mx-auto max-w-7xl">
             <div class="flex justify-between">
                 <!-- menu -->

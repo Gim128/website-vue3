@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gradient-to-r from-gray-100 to-gray-300">
-    <div class="max-w-full py-24 mx-auto sm:px-6 sm:py-32 lg:px-8">
+    <div class="bg-gradient-to-r from-sky-400 to-blue-500">
+    <!-- <div class="max-w-full py-24 mx-auto sm:px-6 sm:py-32 lg:px-8">
       <div class="relative px-6 pt-16 overflow-hidden bg-gray-900 shadow-2xl isolate sm:rounded-sm sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
           <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
@@ -27,7 +27,45 @@
           <img class="absolute top-0 left-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="https://apkdone.com/wp-content/uploads/2021/12/Google-Play-Store-poster.jpg" alt="App screenshot" width="1824" height="1080" />
         </div>
       </div>
+    </div> -->
+    <div class="max-w-full py-12 mx-auto sm:px-6 sm:py-12 lg:px-8">
+    <div class="relative px-3 pt-8 overflow-hidden bg-blue-500 shadow-2xl isolate sm:rounded-sm sm:px-6 md:pt-8 lg:flex lg:gap-x-6 lg:px-6 lg:pt-0">
+    <div class="px-32 py-32">
+      <div class="flex flex-row space-x-12">
+        <div class="basis-1/2">
+          <span class="text-4xl font-bold">
+            Data to enrich your
+          </span>
+          <br>
+          <div class="pt-1">
+            <span class="text-5xl font-extrabold text-indigo-800">
+              Your Business
+            </span>
+            <div class="pt-4">
+              <span class="text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur sapiente veritatis sit quod illo perspiciatis ullam perferendis libero sed voluptas qui quisquam, 
+                labore beatae id corrupti itaque deserunt, provident praesentium?
+              </span>
+              <div class="pt-4"></div>
+              <div class="flex items-center justify-center mt-6 gap-x-6 lg:justify-start">
+                <a href="#" class="rounded-md bg-indigo-700 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+                <a href="#" class="rounded-md bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white">Learn more <span aria-hidden="true">→</span></a>
+                <a href="#" class="rounded-md bg-indigo-700 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+                <a href="#" class="rounded-md bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white">Learn more <span aria-hidden="true">→</span></a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="basis-1/2 px-0 py-0">
+          <img src="#" alt="" />
+        </div>
+
+      </div>
     </div>
+  </div>
+  </div>
   </div>
 </template>
 
