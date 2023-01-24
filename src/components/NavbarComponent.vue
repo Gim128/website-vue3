@@ -16,7 +16,7 @@
                   <div class="items-center hidden space-x-1 md:flex">
                     <a href="#" class="px-2 py-5 text-white cursor-pointer hover:text-yellow-500">Home</a>
                     <a href="#" class="px-2 py-5 text-white cursor-pointer hover:text-yellow-500">Reach Us</a>
-                    
+                    <button-component />
                     
                   </div>
                 </div>
@@ -48,6 +48,7 @@
 
 <script setup>
   import { ref } from 'vue';
+  import ButtonComponent from './ButtonComponent.vue';
   // import ButtonComponent from './ButtonComponent.vue';
 
   const showMobileMenu = ref(true)
