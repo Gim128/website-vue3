@@ -1,7 +1,7 @@
 <template>
   <nav>
     <!-- desktop menu -->
-    <div class="bg-gradient-to-r from-sky-400 to-blue-500">
+    <div class="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-cyan-600 via-blue-500 to-indigo-700">
         <div class="mx-auto max-w-7xl">
             <div class="flex justify-between">
                 <!-- menu -->
@@ -16,7 +16,7 @@
                   <div class="items-center hidden space-x-1 md:flex">
                     <a href="#" class="px-2 py-5 text-white cursor-pointer hover:text-yellow-500">Home</a>
                     <a href="#" class="px-2 py-5 text-white cursor-pointer hover:text-yellow-500">Reach Us</a>
-                    <button-component />
+                    <!-- <button-component /> -->
                     
                   </div>
                 </div>
@@ -40,16 +40,12 @@
     <div class="bg-indigo-700 md:hidden" :class="{hidden: showMobileMenu}">
       <a href="#" class="block px-4 py-2 text-white hover:bg-indigo-600 hover:text-bg-yellow-500">Home</a>
       <a href="#" class="block px-4 py-2 text-white hover:bg-indigo-600 hover:text-bg-yellow-500">Reach Us</a>
-      <!-- <button-component /> -->
     </div>
   </nav>
-  <!-- <div class="p-8 text-2xl font-extrabold text-center">Content</div> -->
 </template>
 
 <script setup>
   import { ref } from 'vue';
-  import ButtonComponent from './ButtonComponent.vue';
-  // import ButtonComponent from './ButtonComponent.vue';
 
   const showMobileMenu = ref(true)
   

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gradient-to-r from-sky-400 to-blue-500">
+    <div class="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-slate-300 via-blue-300 to-blue-400">
     <!-- <div class="max-w-full py-24 mx-auto sm:px-6 sm:py-32 lg:px-8">
       <div class="relative px-6 pt-16 overflow-hidden bg-gray-900 shadow-2xl isolate sm:rounded-sm sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
@@ -29,7 +29,7 @@
       </div>
     </div> -->
     <div class="max-w-full py-12 mx-auto sm:px-6 sm:py-12 lg:px-8">
-    <div class="relative px-3 pt-8 overflow-hidden bg-blue-500 shadow-2xl isolate sm:rounded-sm sm:px-6 md:pt-8 lg:flex lg:gap-x-6 lg:px-6 lg:pt-0">
+    <div class="relative px-3 pt-8 overflow-hidden bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 shadow-2xl isolate sm:rounded-sm sm:px-6 md:pt-8 lg:flex lg:gap-x-6 lg:px-6 lg:pt-0">
     <div class="px-32 py-32">
       <div class="flex flex-row space-x-12">
         <div class="basis-1/2">
@@ -42,7 +42,7 @@
               Your Business
             </span>
             <div class="pt-4">
-              <span class="text-gray-600">
+              <span class="text-black font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur sapiente veritatis sit quod illo perspiciatis ullam perferendis libero sed voluptas qui quisquam, 
                 labore beatae id corrupti itaque deserunt, provident praesentium?
               </span>
