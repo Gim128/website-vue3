@@ -1,5 +1,5 @@
 <template>
-    <footer class="mt-12 text-center text-gray-800 bg-gray-100 lg:text-left">
+    <footer class="mt-0 text-center text-gray-800 bg-gradient-to-r from-gray-100 to-gray-300bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] via-blue-300 to-blue-400">
         <div class="flex items-center justify-center p-6 border-b border-gray-300 lg:justify-between">
           <div class="hidden mr-12 lg:block">
             <span>Get connected with us on social networks:</span>
@@ -154,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="p-6 text-center bg-gray-200">
+        <div class="p-6 text-center bg-gradient-to-r to-gray-300bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-slate-300 via-blue-300 to-blue-400">
           <span>© 2023 Copyright:</span>
           <a class="ml-2 font-semibold text-gray-600" href="https://tailwind-elements.com/">BORUI PVT LTD</a>
         </div>
